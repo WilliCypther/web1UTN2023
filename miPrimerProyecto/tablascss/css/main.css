@@ -1,0 +1,39 @@
+#colFechaNac{
+    background-color: aquamarine;
+}
+
+
+*{
+    color:darkorange
+}
+
+
+td{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tabla1{
+
+
+    margin-top: 40%;
+    color: #000;
+    background-color: blue;
+    border-style: dotted;
+    
+
+
+
+}
+
+
+.tabla2{
+
+   
+    color: aquamarine;
+    background-color: burlywood;
+    border-style: dashed;
+
+
+
+
+}

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas Css</title>
+    <link rel="stylesheet" href="css/main.css">
+
+
+
+    <!--Nota 
+    
+        Hay selectores en css
+        
+        1.Universal
+        2.Etiqueta
+        3.class
+        4.id
+    
+    -->
+
+
+    <!--Cascada en css-->
+    <!--CSS EXTERNO INVESTIGAR-->
+    <!--Este es un css interno-->
+    <style>    
+        <!---todo el td es una regla --->
+
+        td{
+            background-color: aqua;
+        }
+
+        table{
+            border-color: rgb(170, 16, 16);
+            border-width: 5px;
+            border-style: dotted;
+        }
+
+
+
+
+    </style>
+
+
+
+</head>
+
+
+
+<body>
+
+        <h1> Tablas </h1>
+
+        <table border="1">
+
+
+           <!---->
+            <tr>
+                <!--th lo pone en negrita las cosas-->
+                <!-- style dentro de nombre es un enlace directo a un style lo cual nodifica la cosa-->
+                <th style = "background-color: bisque; color: rgb(42, 165, 52);"> Nombre </th>
+                <th> Apellido </th>
+                <th> Segundo apellido </th>
+
+            </tr>
+
+
+            <tr>
+               
+                <!--td son celdas-->
+                <td> William </td>
+                <td> Cubero </td>
+                <td> Navarro </td>
+
+            </tr>
+
+            <tr>
+                <td colspan="2" id="colFechaNac"> Fecha nacimiento</td>
+                <td>01-01-2000</td>
+            </tr>
+
+            <tr>
+
+                <td> col </td>
+                <td> col  </td>
+                <!--El Rowspan-->
+                <td rowspan="2"> col </td>
+            </tr>
+
+            <tr>
+                <td> col </td>
+                <td> col </td>
+            </tr>
+
+
+
+
+
+
+        </table>
+
+
+        <table border="1" class="tabla2">
+
+
+            <!---->
+             <tr>
+                 <!--th lo pone en negrita las cosas-->
+                 <!-- style dentro de nombre es un enlace directo a un style lo cual nodifica la cosa-->
+                 <th style = "background-color: bisque; color: rgb(42, 165, 52);"> Nombre </th>
+                 <th> Apellido </th>
+                 <th> Segundo apellido </th>
+ 
+             </tr>
+ 
+ 
+             <tr>
+                
+                 <!--td son celdas-->
+                 <td> William </td>
+                 <td> Cubero </td>
+                 <td> Navarro </td>
+ 
+             </tr>
+ 
+             <tr>
+                 <td colspan="2" id="colFechaNac"> Fecha nacimiento</td>
+                 <td>01-01-2000</td>
+             </tr>
+ 
+             <tr>
+ 
+                 <td> col </td>
+                 <td> col  </td>
+                 <!--El Rowspan-->
+                 <td rowspan="2"> col </td>
+             </tr>
+ 
+             <tr>
+                 <td> col </td>
+                 <td> col </td>
+             </tr>
+ 
+ 
+ 
+ 
+ 
+ 
+         </table>
+
+         
+
+         <table border="1" class="tabla3">
+
+
+            <!---->
+             <tr>
+                 <!--th lo pone en negrita las cosas-->
+                 <!-- style dentro de nombre es un enlace directo a un style lo cual nodifica la cosa-->
+                 <th style = "background-color: bisque; color: rgb(42, 165, 52);"> Nombre </th>
+                 <th> Apellido </th>
+                 <th> Segundo apellido </th>
+ 
+             </tr>
+ 
+ 
+             <tr>
+                
+                 <!--td son celdas-->
+                 <td> William </td>
+                 <td> Cubero </td>
+                 <td> Navarro </td>
+ 
+             </tr>
+ 
+             <tr>
+                 <td colspan="2" id="colFechaNac"> Fecha nacimiento</td>
+                 <td>01-01-2000</td>
+             </tr>
+ 
+             <tr>
+ 
+                 <td> col </td>
+                 <td> col  </td>
+                 <!--El Rowspan-->
+                 <td rowspan="2"> col </td>
+             </tr>
+ 
+             <tr>
+                 <td> col </td>
+                 <td> col </td>
+             </tr>
+ 
+ 
+ 
+ 
+ 
+ 
+         </table>
+ 
+
+
+
+
+
+    
+</body>
+
+
+
+
+
+</html>
