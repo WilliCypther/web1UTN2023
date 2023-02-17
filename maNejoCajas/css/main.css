@@ -1,0 +1,54 @@
+td.Approved,th.Approved{
+
+    background-color: green;
+
+}
+
+td.Suspend,th.Suspend{
+
+    background-color: red;
+
+}
+
+td.Mate,th.Mate{
+    background-color: red;
+
+
+}
+
+td.Lenguaje, th.Lenguaje{
+
+    background-color: rgba(104, 4, 4, 0.978);
+
+}
+
+td.Edfisica, th.Edfisica{
+
+    background-color: rgba(201, 131, 199, 0.978);
+
+}
+
+td.informatica, th.informatica{
+
+    background-color: rgba(218, 240, 12, 0.978);
+
+}
+
+
+
+td.recreo, th.recreo{
+
+    background-color: rgb(9, 116, 9);
+}
+
+
+/**AQUI VAN LOS CSS DE LA TABLA 1*/
+
+td.arprovado, th.aprovado{
+    background-color:rgb(9, 116, 9);
+}
+
+td.suspendido, th.suspendido{
+    background-color: red;
+
+}

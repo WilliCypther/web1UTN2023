@@ -15,7 +15,7 @@ td{
 .tabla1{
 
 
-    margin-top: 40%;
+    margin-top: 10px;
     color: #000;
     background-color: blue;
     border-style: dotted;
@@ -28,7 +28,7 @@ td{
 
 .tabla2{
 
-   
+    margin-top: 10px;
     color: aquamarine;
     background-color: burlywood;
     border-style: dashed;
