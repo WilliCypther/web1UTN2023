@@ -1,0 +1,51 @@
+div
+{ position: absolute;
+  border: solid black 3px;
+  padding: 5px;
+}
+
+
+
+/*Este es el style de la casa*/
+
+div.casa
+{ height: 150px; width: 200px;
+  background-color: grey;
+  position: relative;
+  display: block;
+  
+}
+
+
+#h1
+{ top: 100px; left: 150px;
+}
+
+
+/*Puerta*/
+div.puerta
+{ height: 50px; width: 50px;
+  background-color: maroon;
+  top:142px; left: 84px;
+}	
+
+/*Tejado*/
+div.tejado
+{ height: 30px; width: 220px;
+  background-color: red;
+  top: -48px; left: -13px;
+}
+
+/*Ventana*/
+div.ventana    
+{ height: 30px; width: 30px;
+  background-color: blue;
+  top:80px; left: 20px;
+}
+
+/*V.2*/
+div.ventana2    
+{ height: 30px; width: 30px;
+  background-color: blue;
+  top:120px; left: 165px;
+}			
